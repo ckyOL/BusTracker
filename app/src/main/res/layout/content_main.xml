@@ -17,8 +17,9 @@
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Bus Number"
-        android:maxLines="1"/>
+        android:hint="@string/bus_number"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
 
     <WebView
         android:id="@+id/web_view"
